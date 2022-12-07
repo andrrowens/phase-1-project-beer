@@ -1,0 +1,32 @@
+/* set background image to bar counter */
+body {
+    background-image: url(assets/BarCounterCopy.jpg);
+    background-color: #10150E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/*   
+/* temporary for image content alignment */
+table{
+    width: 100%;
+    height: 100vh;
+    border: 10px solid white
+}
+
+/* temporary for image content alignment
+td {
+    border: 10px solid red;
+    width: 33%;
+}
+*/
+
+/* get right hand arrow to stick to right side of page */
+#right-arrow-container {
+    text-align: right;
+}
+
+/* set arrow size to 10 view height */
+.arrow{
+    height: 10vh;
+}
