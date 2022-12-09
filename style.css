@@ -1,4 +1,5 @@
-/* set background image to bar counter */
+/* Set background image to bar counter and modify to
+look nice. */
 body {
     background-image: url(assets/BarCounterCopy.jpg);
     background-color: #10150E;
@@ -6,31 +7,39 @@ body {
     background-repeat: no-repeat;
     background-position: 50%;
 }
-/*   
-/* temporary for image content alignment */
-table{
-    width: 100%;
-    height: 100vh;
-    border: 10px solid white
+
+#window{
+    width: 99vw;
+    height: 90vh;
 }
 
-/* temporary for image content alignment
-td {
-    border: 10px solid red;
-    width: 33%;
-}
-*/
-
-/* get right hand arrow to stick to right side of page */
+/* Get right hand arrow to stick to right side of page. */
 #right-arrow-container {
     text-align: right;
 }
 
-/* set arrow size to 10 view height */
+/* Set arrow size to 10 view height. */
 .arrow{
     height: 10vh;
+    padding-bottom: 10vh;
 }
 
+/* Get beer onto the table counter. */
+#beer-image{
+    height: 40vh;
+    position: fixed;
+    bottom: 20vh;
+    right: 45vw;
+}
+
+/* Ensure that the section at the top of the page
+spans the width of the entire page. */
+#picture-row {
+    width: 100vw;
+}
+
+/* Position beer at the top of the page correctly. */
 .beer{
     height: 10vh;
+    padding-left: 9%;
 }
